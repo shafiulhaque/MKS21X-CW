@@ -12,6 +12,6 @@ public class pairProgramming{
   public static void main(String[] args){
     String hairy = "Happy and Here";
     String Joe = "Here";
-    System.out.println(myLastIndex(hairy,Joe));
+    System.out.println(myLastIndex(hairy, Joe));
   }
 }
