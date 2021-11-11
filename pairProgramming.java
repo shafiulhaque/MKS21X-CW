@@ -10,7 +10,7 @@ public class pairProgramming{
     return index;
   }
   public static void main(String[] args){
-    String hairy = "Happy and Here";
+    String hairy = "Happyand Here";
     String Joe = "Here";
     System.out.println(myLastIndex(hairy, Joe));
   }
