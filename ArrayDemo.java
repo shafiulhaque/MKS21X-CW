@@ -1,5 +1,6 @@
 public class ArrayDemo{
   public static void main(String[]args){
+    
     int[][] joe = {{29, 43, 2, 12}, {24, -3, 12, -37}, {4}, {6, 29}};
     int[][] joe2 = copy(joe);
     System.out.println(arrToString(joe));
@@ -9,6 +10,7 @@ public class ArrayDemo{
     System.out.println(countZeros2D(joe));
     System.out.println(arrToString(joe2));
     System.out.println("\n");
+    
     int[][] joe3 = {{3, 3, 3}, {}, {5, 23, -5}, {-4, -4, -16, -22}};
     int[][] joe4 = copy(joe3);
     System.out.println(arrToString(joe3));
@@ -18,6 +20,7 @@ public class ArrayDemo{
     System.out.println(countZeros2D(joe3));
     System.out.println(arrToString(joe4));
     System.out.println("\n");
+    
     int[][] joe5 = new int[7][];
     replaceNegative(joe5);
     System.out.println(arrToString(joe5));
